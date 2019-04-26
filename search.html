@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Results</title>
+    <link rel="stylesheet" type="text/css" href="search.css">
+</head>
+
+<body>
+    <div class="container1">
+        
+        <div class="logo">
+            <a href="#"><img src="http://pngimg.com/uploads/google/google_PNG19644.png" width="100"></a>
+        </div>    
+
+        <div class="search-box">
+            <form>
+                <input type="text" class="search">
+                <button class="submit" type="submit"><img width="10" src="data:image/png;base64,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"></button>
+            </form>
+        </div>
+
+        <div class="nav-icons">        
+            <ul>
+                <li>
+                    <a class="ur1" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_nXuqjXTwRNrA94ioinYHjrCtTptsRWdGMWsJ07m4UtfxCb7L" width="20"></a>
+                </li>
+                <li>
+                    <a class="ur2" href="#"><p>M</p></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    
+
+
+    <div class="nav-bar">
+
+        <ul class="nav">
+            
+            <div class="lefty">
+            <li>
+                <a href="#">All</a></li>
+            <li>
+                <a href="#">Images</a></li>
+            <li>
+                <a href="#">News</a></li>
+            <li>
+                <a href="#">Videos</a></li>
+            <li>
+                <a href="#">Maps</a></li>
+            <li>
+                <a href="#">More</a></li>
+            </div>
+            <div class="righty">
+            <li>
+                <a href="#">Settings</a></li>
+            <li>
+                <a href="#">Tools</a></li>
+            </div>
+        </ul>
+
+    </div>
+
+    <main>
+        <section>
+
+            <div class="web-box">
+                <a href="https://lasvegas.electricdaisycarnival.com" class="web-title">
+                    EDC Las Vegas 2019 - May 17, 18, 19
+                </a>
+                <p class="web-address">
+                    https://lasvegas.electricdaisycarnival.com
+                </p>
+                <p class="web-description">
+                    Buy tickets to the festival, get camping info, learn all about EDC Las Vegas, and explore the world of Electric Daisy
+                    Carnival—the music, the rides, the art.
+                </p>
+                <ul class="web-links">
+                    <li>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=2ahUKEwj4sKiisOzhAhUVvp4KHcPxDzMQ0gIoADABegQIBhAG&url=https%3A%2F%2Flasvegas.electricdaisycarnival.com%2Flineup%2F&usg=AOvVaw3u7_lPbiPEa5j2gOjX6SlS">
+                        Lineup</a></li>
+                    <li>
+                        <a href="#">Tickets</a></li>
+                    <li>
+                        <a href="#">General Admission</a></li>
+                    <li>
+                        <a href="#">The World of EDC</a></li>
+                </ul>
+
+
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

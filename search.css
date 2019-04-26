@@ -1,0 +1,112 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+
+.logo, .search-box {
+    float: left;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.search {
+    width: 600px;
+    height: 40px;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 40px;
+}
+
+.container1 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 13px;
+}
+.submit {
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 8px;
+}
+
+.nav-icons {
+    float: right;
+}
+
+.ur1 {
+    position: absolute;
+    margin-left: 1000px;
+}
+
+.ur2 {
+    position: absolute;
+    margin-left: 1050px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    padding: 10px;
+    border-color: black;
+    background-color: rgba(0, 16, 68, 0.5);
+    color: white;
+    margin-top: -8px;
+}
+
+
+
+.nav, li {
+    clear: both;
+    font-size: 12px;
+}
+
+li {
+    clear: both;
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.nav-bar {
+    position: absolute;
+    margin-top: 95px;
+    padding-left: 143px;
+    width: 600px;
+    word-spacing: 30px;
+}
+
+li, a {
+    text-decoration: none;
+}
+
+.righty {
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 470px;
+    word-spacing: 30px;
+}
+
+
+/*main*/
+main {
+    position: relative;
+    top: 140px;
+    border-top-color: blue;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+section {
+    margin-left: 143px;
+    margin-top: 40px;
+    width: 550px;
+}
+
+ section a:hover {
+    text-decoration: underline;
+}
+
+.web-address {
+    color: #006621;
+}
